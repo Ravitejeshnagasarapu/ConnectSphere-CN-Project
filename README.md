@@ -149,12 +149,6 @@ Launch the client application:
   python client.py
   ```
 Note: To connect multiple users, run the client script on different machines and connect using the server’s LAN IP.
-## 📈 Engineering Highlights (For Interviewers)
-* **Clear separation** of control plane and data plane.
-* **Intelligent protocol selection** (UDP vs TCP) based on specific use-cases.
-* **Custom audio mixer** implementation with packet loss handling.
-* **Thread-safe** shared state management.
-* **Modular architecture** designed for extensibility.
 
 ---
 
