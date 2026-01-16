@@ -1,4 +1,4 @@
-# 🚀 ConnectSphere – Multi-User LAN Video Conferencing System
+# ConnectSphere – Multi-User LAN Video Conferencing System
 
 **ConnectSphere** is a real-time, multi-user video conferencing system built using low-level network programming in Python.
 
@@ -6,7 +6,7 @@ The project demonstrates practical use of TCP & UDP protocols, concurrency, medi
 
 ---
 
-## 🎯 Project Objective
+## Project Objective
 To design and implement a scalable LAN-based conferencing system that supports:
 * Real-time video and audio communication
 * Screen sharing
@@ -17,7 +17,7 @@ All while maintaining clear protocol separation, concurrency handling, and perfo
 
 ---
 
-## 🧩 Real-World Motivation
+## Real-World Motivation
 
 Modern video conferencing systems require a careful balance between **latency, reliability, and scalability**.  
 This project explores how real-world platforms like Zoom and Google Meet:
@@ -30,7 +30,7 @@ ConnectSphere was built to understand and implement these trade-offs at a **low 
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 ### 🔹 Real-Time Video Conferencing
 * **Protocol:** UDP for low-latency video streaming.
@@ -59,7 +59,7 @@ ConnectSphere was built to understand and implement these trade-offs at a **low 
 
 ---
 
-## 🧠 System Architecture (High Level)
+## System Architecture (High Level)
 
 ### Client–Server Model
 * **Server Manages:**
@@ -79,7 +79,7 @@ ConnectSphere was built to understand and implement these trade-offs at a **low 
 
 ---
 
-## 🏗️ System Architecture Diagram
+## System Architecture Diagram
 
 The following diagram illustrates the high-level architecture of ConnectSphere, showing the separation between the **control plane** and **media plane**, along with the protocols used for each communication path.
 
@@ -91,7 +91,7 @@ The following diagram illustrates the high-level architecture of ConnectSphere, 
 
 ---
 
-## 🧠 Key Design Decisions
+## Key Design Decisions
 
 - **Centralized Audio Mixing:**  
   Chosen to simplify synchronization and allow per-client customized audio streams.
@@ -106,7 +106,7 @@ The following diagram illustrates the high-level architecture of ConnectSphere, 
   Prevents bandwidth overload and simplifies viewer synchronization.
 
 ---
-## 🔌 Communication Protocols
+## Communication Protocols
 
 | Feature | Protocol | Reason |
 | :--- | :---: | :--- |
@@ -118,7 +118,7 @@ The following diagram illustrates the high-level architecture of ConnectSphere, 
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 * **Language:** Python
 * **Networking:** Socket Programming (TCP & UDP)
@@ -130,7 +130,7 @@ The following diagram illustrates the high-level architecture of ConnectSphere, 
 
 ---
 
-## ▶️ How to Run
+## How to Run
 
 ### 1. Prerequisites
 Install the required libraries:
@@ -152,7 +152,7 @@ Note: To connect multiple users, run the client script on different machines and
 
 ---
 
-## 📊 Scale & Performance Characteristics
+## Scale & Performance Characteristics
 
 - Tested with **multiple concurrent clients** on a LAN
 - Supports:
@@ -163,14 +163,14 @@ Note: To connect multiple users, run the client script on different machines and
 
 ---
 
-## 🧪 Limitations & Future Enhancements
+## Limitations & Future Enhancements
 * **Encryption:** Currently no encryption; can be extended with TLS / DTLS.
 * **Network:** LAN-only; can be extended using NAT traversal / TURN for WAN support.
 * **Codecs:** Video codec can be upgraded to H.264 or WebRTC-style implementation.
 
 ---
 
-## 📚 Academic Context
+## Academic Context
 * **Course:** Computer Networks
 * **Focus Areas:**
     * Socket programming
@@ -180,8 +180,8 @@ Note: To connect multiple users, run the client script on different machines and
   
 ---
 
-## 👨‍💻 Author
+## Author
 
-**Ravi Tejesh N**  
+**Ravi Tejesh Nagasarapu**  
 Computer Science & Engineering  
 Specialization: *Artificial Intelligence*
